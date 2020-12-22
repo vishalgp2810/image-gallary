@@ -1,0 +1,91 @@
+.body {
+    padding: 30px;
+    text-align: justify;
+    height: 100vh;
+    color: white;
+    overflow-y: overlay;
+    background-color: #a0aec0;
+}
+
+.body::-webkit-scrollbar {
+    display: none;
+}
+
+.img_list {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 30px;
+}
+
+.image  {
+    margin-left: 20px;
+}
+
+.img_container {
+    margin-top: 20px;
+    max-height : 500px;
+    overflow-y: scroll;
+}
+
+.img_container::-webkit-scrollbar {
+    display: none;
+}
+
+.body_info {
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+}
+
+.body_info > img {
+    height: 20vh;
+    margin: 0 20px;
+    box-shadow: 0 4px 60px rgba(0, 0, 0, 0.5) ;
+
+}
+
+.body_icons {
+    display: flex;
+    align-items: center;
+}
+
+.body_icons > .MuiSvgIcon-root {
+    margin-right: 20px;
+}
+
+.body_shuffle {
+    font-size: 80px !important;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #1ed15e;
+}
+
+.body_songs {
+    margin: 20px -30px;
+
+}
+
+.body_shuffle:hover {
+    transition: 100ms transform ease-in;
+    transform: scale(1.08);
+    cursor: pointer;
+}
+
+.body_icons {
+    display: flex;
+    align-items: center;
+}
+
+.body_icons > .MuiSvgIcon-root {
+    margin-right: 20px;
+}
+
+.body_infoText > h2 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.body_infoText > p {
+    font-size: 14px;
+}

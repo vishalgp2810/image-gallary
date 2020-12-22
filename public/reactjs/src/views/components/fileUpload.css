@@ -1,0 +1,28 @@
+.file_upload {
+    margin-top: 80px;
+    text-align: center;
+    position: sticky;
+}
+
+.file_border {
+    border-bottom : 6px solid #2c5282;
+    text-align: center;
+}
+
+.file_input {
+    display: none;
+}
+.upload_lable{
+    color:  #2c5282 ;
+    font-weight: bold;
+}
+
+.upload_icon {
+    margin-right: 5px;
+    color: #2c5282;
+}
+
+.input_button {
+  
+    border-bottom: 10px solid #2c5282;
+}
